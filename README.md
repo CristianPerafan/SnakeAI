@@ -76,3 +76,23 @@ We want to improve the Q function, which takes the state and action as input and
 The bellman equation is used to update the Q value. It is based on the idea that the Q value of a state is the reward of an action plus the maximum Q value of the next state.
 
 ![](./img/bellman.png)
+
+
+## **How to run**
+
+1. Setup the environment
+    ```bash
+    python -m venv venv
+    ```
+2. Activate the environment
+    ```bash
+    ./venv/Scripts/activate
+    ```
+3. Install the dependencies
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. Run the game
+    ```bash
+    python main.py
+    ```
